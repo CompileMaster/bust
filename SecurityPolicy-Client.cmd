@@ -1,5 +1,4 @@
 : ipsec service must be started under windows workstation
-
 netsh ipsec static set policy name=SecurityPolicy assign=n
 netsh ipsec static delete policy name=SecurityPolicy
 netsh ipsec static delete rule name=PermitRule policy=SecurityPolicy
